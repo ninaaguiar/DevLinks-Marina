@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil - Marina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="perfil">
+        <div id="foto-perfil">
+          <img
+            src="/Assets/Noite tranquila em varanda acolhedora.png"
+            alt="Foto de perfil da Marina, com cabelo solto e sorrindo"
+          />
+          <p>@maaguiarh</p>
+        </div>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <div>
+        <ul>
+          <li>
+            <a href="/Assets/Curriculo-Mari.pdf" target="_blank" id="btn-sobre"
+              >Sobre mim</a
+            >
+          </li>
+          <li>
+            <button class="link-style" id="btn">O que estou aprendendo</button>
+            <div class="overlay" id="overlay">
+              <div class="modal">
+                <p>
+                  Estou explorando diferentes áreas da tecnologia e, nesse
+                  processo, tenho me interessado cada vez mais por dados.
+                  Atualmente estudo front-end com HTML, CSS e JavaScript, e em
+                  breve inicio meus estudos em dados com Python.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a
+              href="https://www.notion.so/Base-de-Conhecimento-Aprendizados-33d4759975428017856cc21198908f91"
+              target="_blank"
+              rel="noreferrer"
+              >Anotações de estudos</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div id="social-links">
+        <a href="https://github.com/ninaaguiar" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/maaguiarh/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/marina-aguiar-assuncao"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      <p>Feito com ♥ por Marina Aguiar</p>
+    </footer>
+
+    <script
+      type="module"
+      src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js "
+    ></script>
+    <script
+      nomodule
+      src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "
+    ></script>
+    <script src="./Script.js"></script>
+  </body>
+</html>
