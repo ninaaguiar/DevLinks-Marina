@@ -4,7 +4,7 @@ function toggleMode() {
   const img = document.querySelector("#perfil img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "/assets/retrato alegre ao entardecer.png")
+    img.setAttribute("src", "/Assets/retrato alegre ao entardecer.png")
   } else {
     img.setAttribute("src", "/Assets/Noite tranquila em varanda acolhedora.png")
   }
