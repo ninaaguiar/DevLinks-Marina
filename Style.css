@@ -7,24 +7,24 @@
 :root {
   /*raiz - o padrão será o raiz*/
   --text-color: white;
-  --bg-url: url(/Assets/bt-noite.jpg); /*imagem do background (bg)/ fundo*/
+  --bg-url: url(./Assets/bt-noite.jpg); /*imagem do background (bg)/ fundo*/
   --stroke-color: rgba(255, 255, 255, 0.5); /*cor do contorno/traço*/
   --surface-color: rgba(255, 255, 255, 0.05); /*cor da superficie*/
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(/Assets/Moon.Stars.svg);
+  --switch-bg-url: url(./Assets/Moon.Stars.svg);
   --modal-bg: rgba(0, 0, 0, 0.9);
   --modal-text: white;
 }
 
 .light {
   --text-color: black;
-  --bg-url: url(/Assets/bt-dia.jpg);
+  --bg-url: url(./Assets/bt-dia.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(/Assets/Sun.svg);
+  --switch-bg-url: url(./Assets/Sun.svg);
   --modal-bg: white;
   --modal-text: black;
 }

@@ -4,9 +4,12 @@ function toggleMode() {
   const img = document.querySelector("#perfil img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "/Assets/retrato alegre ao entardecer.png")
+    img.setAttribute("src", "./Assets/retrato alegre ao entardecer.png")
   } else {
-    img.setAttribute("src", "/Assets/Noite tranquila em varanda acolhedora.png")
+    img.setAttribute(
+      "src",
+      "./Assets/Noite tranquila em varanda acolhedora.png",
+    )
   }
   const altText = html.classList.contains("light")
     ? "Foto de perfil do Mayk Brito, com óculos escuro, barba e cabelo curto"
