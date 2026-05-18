@@ -4,11 +4,11 @@ function toggleMode() {
   const img = document.querySelector("#perfil img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./Assets/retrato alegre ao entardecer.png")
+    img.setAttribute("src", "./Assets/retrato-alegre-ao-enterdar.png")
   } else {
     img.setAttribute(
       "src",
-      "./Assets/Noite tranquila em varanda acolhedora.png",
+      "./Assets/Noite-tranquila-em-varanda-acolhedora.png",
     )
   }
   const altText = html.classList.contains("light")
