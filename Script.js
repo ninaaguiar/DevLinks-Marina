@@ -4,7 +4,7 @@ function toggleMode() {
   const img = document.querySelector("#perfil img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./Assets/retrato-alegre-ao-enterdar.png")
+    img.setAttribute("src", "./Assets/Retrato-alegre-ao-enterdar.png")
   } else {
     img.setAttribute(
       "src",
@@ -12,8 +12,8 @@ function toggleMode() {
     )
   }
   const altText = html.classList.contains("light")
-    ? "Foto de perfil do Mayk Brito, com óculos escuro, barba e cabelo curto"
-    : "Foto de perfil da Marina, com cabelo solto e sorrindo"
+    ? "Retrato alegre da Marina, com cabelo solto e sorrindo"
+    : "Noite tranquila em varanda acolhedora, com a Marina sorrindo e cabelo solto"
   img.setAttribute("alt", altText)
 }
 

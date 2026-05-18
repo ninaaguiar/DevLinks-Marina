@@ -199,10 +199,10 @@ footer {
 /*media query - para telas maiores*/
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(/Assets/bt-noite.jpg);
+    --bg-url: url(./Assets/bt-noite.jpg);
   }
   .light {
-    --bg-url: url(/Assets/bt-dia.jpg);
+    --bg-url: url(./Assets/bt-dia.jpg);
   }
 }
 
