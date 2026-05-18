@@ -4,7 +4,7 @@ function toggleMode() {
   const img = document.querySelector("#perfil img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./Assets/Retrato-alegre-ao-enterdar.png")
+    img.setAttribute("src", "./Assets/Retrato-alegre-ao-entardecer.png")
   } else {
     img.setAttribute(
       "src",
